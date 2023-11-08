@@ -1,0 +1,74 @@
+/* Colors and Fonts */
+body {
+    background-color: #90e3ab ;
+    font-family : Helvetica; }
+
+h1, h2 {
+    font-family: roboto ; 
+}
+
+h1 {    
+    color: black;
+    font-weight: #90e3ab; 
+    letter-spacing: 0,5px;
+    font-size: 30px; }
+
+h2 {
+    color: black;
+    font-size: 30px;
+    letter-spacing: 0,5px;
+    font-weight: #90e3ab; }
+
+a:hover {
+    color: blue; }
+
+
+.container {
+    width: 700px;
+    margin: 30px auto; }
+
+@media (max-width: 960px) {
+    .container {
+        width: 680px; } }
+
+@media (max-width: 710px) {
+    .container {
+        width: 490px; } }
+
+@media (max-width: 530px) {
+    .container {
+        width: 300px; } }
+
+.card-white {
+    background-color: white;
+    padding: 50px;
+    box-shadow: 0 12px 45px white; 
+    border-radius: 3px;
+    margin: 40px 0;
+    text-align: center; }
+
+.img-circle {
+    border-radius: 40%; }
+
+.btn-blue {
+    background-color: #90e3ab;
+    padding: 8px 15px;
+    border-radius: 8px; }
+
+.btn-blue:hover {
+    background-color: #90e3ab; }
+
+
+.list-inline li {
+    display: inline;
+    padding: 20px; }
+
+.list-inline i {
+    font-size: 35px;
+    color: #90e3ab; }
+
+.list-inline i:hover {
+    color: blue; }
+
+#introduction p {
+    margin-bottom: 15px ; }
